@@ -11,8 +11,5 @@ message(WARNING "OpenCV_DIR: ${OpenCV_DIR}")
 
 find_package(OpenCV CONFIG REQUIRED NO_DEFAULT_PATH)
 
-endif(RVC_EXTERNAL_WITH_OPENCV)
-# end
-
  add_executable( TestOpenCV test.cpp)
  target_link_libraries( TestOpenCV ${OpenCV_LIBS} )
