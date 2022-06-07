@@ -4,7 +4,7 @@ if (POLICY CMP0074)
 endif()
 
 PROJECT(TestOpenCV)
-
+ 
 IF(CMAKE_CL_64)
   set(OpenCV_DIR "${PROJECT_SOURCE_DIR}/Externals/OpenCV/x64/vc16/lib" CACHE FILEPATH "Set to find OpenCV")
 ELSE(CMAKE_CL_64)
