@@ -58,3 +58,6 @@ dlldata.c
 
 # Benchmark Results
 BenchmarkDotNet.Artifacts/
+
+*.dll
+*.lib
