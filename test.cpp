@@ -1,4 +1,4 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 #include <opencv2/opencv.hpp>
 
 #include "Externals/OpenCV/include/opencv2/highgui.hpp"
@@ -10,7 +10,7 @@ int main(int argc, char** argv ) {
     printf("No image data \n");
     return -1;
   }
-// ÄãºÃ
+// ä½ å¥½
   namedWindow("Display Image", WINDOW_AUTOSIZE );
   imshow("Display Image", image);
   waitKey(0);
